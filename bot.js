@@ -1,13 +1,13 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "$"
-var adminprefix = '$'
+var prefix = "/"
+var adminprefix = '/'
 
 
 //bc
 
 client.on("message", message => {
-    if (message.content.startsWith("$obc")) {
+    if (message.content.startsWith("/obc")) {
                  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' ');
@@ -86,11 +86,13 @@ m.sendMessage(args)
        
        /avatar  |تنزيل صوره ملفك او صوره ملف غيرك
 
+       لضافه البوت ----> Anwar#2279 
        ** `)
    message.author.sendEmbed(embed)
    
    }
    });
+
 
 client.on('ready', () => {
    console.log(`----------------`);
