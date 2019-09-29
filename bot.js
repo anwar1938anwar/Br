@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`سعر البوت 15 الف اذا بدك تعال خاص ---> Anwar#2279`,"https://www.youtube.com/channel/UCLL7O3mTN6ITxeMzxCdrDUw?view_as=subscriber")
+client.user.setGame(`سعر البوت 12 الف اذا بدك تعال خاص ---> Anwar#2279`,"https://www.youtube.com/channel/UCLL7O3mTN6ITxeMzxCdrDUw?view_as=subscriber")
 client.user.setStatus("dnd")
 });
 
